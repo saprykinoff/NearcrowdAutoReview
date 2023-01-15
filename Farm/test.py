@@ -1,0 +1,3 @@
+import requests
+link = "https://nearcrowd.com/v2/claim_review/43/FwAAAG9sbHlfei5jcm93ZGZvcmNlcy5uZWFyAGuw3ITQqVe0rlEji76m2gheW6XB5iul13yShwZuRbNpA%2FPOSdU8AAASAAAAYXBwLm5lYXJjcm93ZC5uZWFymaM4FXFFJLoeEYNCuUQ4dS7QpVbrK8jbrzKD0NdQmocBAAAAAgIAAAB2MgIAAAB7fQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApez7VotmBpi1z%2Fh%2FD2UY7Y43WzIetr4CUXR9alwWEPJl8Qd2t4nUsbN%2BzJmX%2BwkcvszlfHcmGffs9LlbqtW4L"
+print(requests.get(link, verify=False).text)
